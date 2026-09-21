@@ -14,7 +14,7 @@ Luziânia · 2026
 | **Professora** | Érika Alves Sardinha |
 | **Alunos** | Bruno Felype Maciel de Brito, Davi de Araujo Silva, Marco Antônio Mendes dos Santos e Pedro Xavier Simões |
 | **Série** | 2º Ano Técnico |
-| **Data** | Junho de 2026 |
+| **Data** | 21 de setembro de 2026 |
 
 ---
 
