@@ -53,22 +53,6 @@ Um sistema que centraliza toda a operação da biblioteca, com atualização de 
 
 Após o login, o sistema direciona o usuário conforme o perfil: o **bibliotecário** vai direto ao Dashboard administrativo, e o **leitor** abre a consulta ao catálogo, com a lista dos livros em sua posse e os respectivos prazos.
 
-## Tecnologias
-
-> *A definir. Preencha com as ferramentas escolhidas pelo grupo.*
-
-- Linguagem: `...`
-- Banco de dados: `...`
-- Versionamento: Git e GitHub
-
-## Como executar
-
-```bash
-git clone https://github.com/seu-usuario/sistema-biblioteca.git
-cd sistema-biblioteca
-# adicione aqui os comandos de instalação e execução
-```
-
 ## Equipe
 
 - Bruno Felype Maciel de Brito
