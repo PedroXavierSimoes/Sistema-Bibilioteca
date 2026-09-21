@@ -1,10 +1,10 @@
-# 📚 Sistema de Gerenciamento de Biblioteca Escolar
+# Sistema de Gerenciamento de Biblioteca Escolar
 
 Software de gestão bibliotecária que substitui o controle manual em fichas de papel e cadernos por um ambiente digital centralizado, automatizando o cadastro de obras e leitores, os empréstimos e devoluções, o controle de prazos e as reservas.
 
 > Projeto desenvolvido para o componente curricular **Desenvolvimento de Projetos** do curso Técnico em Desenvolvimento de Sistemas (SENAI).
 
-## 🎯 O problema
+##  O problema
 
 A biblioteca da instituição controla empréstimos e devoluções de forma totalmente manual. Isso causa:
 
@@ -15,18 +15,18 @@ A biblioteca da instituição controla empréstimos e devoluções de forma tota
 - Filas constantes no atendimento;
 - Ausência de relatórios de atrasos em tempo real.
 
-## 💡 A solução
+## A solução
 
 Um sistema que centraliza toda a operação da biblioteca, com atualização de saldo de exemplares em tempo real, cálculo automático de prazos, alertas de atraso, fila de reservas e indicadores para a gestão.
 
-## 👥 Perfis de usuário
+## Perfis de usuário
 
 | Perfil | O que pode fazer |
 |---|---|
 | **Bibliotecários e Gestores** | Administrar o acervo (incluir, alterar e remover livros), cadastrar leitores, registrar empréstimos e devoluções e emitir relatórios. |
 | **Leitores (alunos e professores)** | Consultar o catálogo digital, checar a disponibilidade de exemplares, acompanhar seus empréstimos ativos e reservar livros que estejam emprestados. |
 
-## ✨ Funcionalidades
+## Funcionalidades
 
 - **Catálogo geral e gestão do acervo (CRUD de livros):** cadastro, atualização, consulta com filtros e remoção de obras, com a disponibilidade dos exemplares atualizada instantaneamente.
 - **Gestão de usuários e perfis:** registro de alunos e professores, controle de permissões de acesso e histórico de utilização de cada leitor.
@@ -36,13 +36,13 @@ Um sistema que centraliza toda a operação da biblioteca, com atualização de 
 - **Relatórios gerenciais:** estatísticas do acervo, obras mais procuradas, índice de devoluções no prazo e lista detalhada de devedores, com tabelas e gráficos exportáveis.
 - **Autenticação segura:** acesso por e-mail/matrícula e senha, com permissões separadas por perfil.
 
-## 🗃️ Dados do sistema
+## Dados do sistema
 
 - **Leitor:** nome completo, matrícula/CPF, e-mail, vínculo (aluno ou professor), turma/curso e situação do cadastro (ativo ou suspenso).
 - **Acervo:** título, autor, editora, ISBN, ano de publicação, categoria/gênero, edição, estado de conservação, quantidade total e saldo disponível.
 - **Movimentação (empréstimo):** identificador da transação, leitor, livro, data de retirada, data limite de devolução, data de entrega efetiva e status (em andamento, devolvido ou em atraso).
 
-## 🖥️ Telas e fluxo de acesso
+## Telas e fluxo de acesso
 
 - **Login:** entrada simplificada por e-mail/matrícula e senha.
 - **Dashboard:** atalhos rápidos (Novo Empréstimo / Devolução) e painel de alertas com devoluções do dia e itens em atraso.
@@ -53,7 +53,7 @@ Um sistema que centraliza toda a operação da biblioteca, com atualização de 
 
 Após o login, o sistema direciona o usuário conforme o perfil: o **bibliotecário** vai direto ao Dashboard administrativo, e o **leitor** abre a consulta ao catálogo, com a lista dos livros em sua posse e os respectivos prazos.
 
-## 🛠️ Tecnologias
+## Tecnologias
 
 > *A definir. Preencha com as ferramentas escolhidas pelo grupo.*
 
@@ -61,7 +61,7 @@ Após o login, o sistema direciona o usuário conforme o perfil: o **bibliotecá
 - Banco de dados: `...`
 - Versionamento: Git e GitHub
 
-## 🚀 Como executar
+## Como executar
 
 ```bash
 git clone https://github.com/seu-usuario/sistema-biblioteca.git
@@ -69,7 +69,7 @@ cd sistema-biblioteca
 # adicione aqui os comandos de instalação e execução
 ```
 
-## 🤝 Equipe
+## Equipe
 
 - Bruno Felype Maciel de Brito
 - Davi de Araujo Silva
